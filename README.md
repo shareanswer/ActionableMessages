@@ -6,8 +6,8 @@ This is to allow Actionalable Cards to be called from PowerApps and Flow.
 Actionable message cards are messages that users can interact with inside Outlook, Microsoft Teams, and Microsoft Flow app.
 
 Here are the references to Actionable Message Cards:
-- [Card Reference] (https://docs.microsoft.com/en-us/outlook/actionable-messages/card-reference)
-- [Card Playground] (https://messagecardplayground.azurewebsites.net/)
+- [Card Reference](https://docs.microsoft.com/en-us/outlook/actionable-messages/card-reference)
+- [Card Playground](https://messagecardplayground.azurewebsites.net/)
 
 If you are new to Actionable Message Cards, it is worth experimenting with cards using the Card Playground first to get an idea for what cards are and can do.
 
