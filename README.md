@@ -1,5 +1,5 @@
 # ActionableMessages
-Open API Definition of Actionable Messages API
+The goal of this project is to create an Open API Definition (Swagger definition) to create Actionable Messages in Microsoft Flow and PowerApps.
 
 This is to allow Actionalable Cards to be called from PowerApps and Flow.
 
