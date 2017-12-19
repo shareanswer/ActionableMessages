@@ -12,4 +12,4 @@ Here are the references to Actionable Message Cards:
 If you are new to Actionable Message Cards, it is worth experimenting with cards using the Card Playground first to get an idea for what cards are and can do.
 
 While it is possible to send a card in Microsoft Flow, using the "Approval" action, you cannot send it any other way from Flow.
-![SharePoint Patterns and Practices logo](https://dev.office.com/Media/Default/PnP/sppnp.png)
+![Approval Flow](approval_flow.png)
