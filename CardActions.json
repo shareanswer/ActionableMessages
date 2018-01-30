@@ -1,0 +1,64 @@
+{
+  "potentialAction": [
+    {
+      "@@type": "ActionCard",
+      "name": "Approve",
+      "inputs": [                     
+        {
+          "@@type": "TextInput",
+          "id": "comment",
+          "isMultiline": true,
+          "title": "Comment"
+        }
+      ],
+      "actions": [
+        {
+          "@@type": "HttpPOST",
+          "name": "Submit",
+          "body": "{\"comment\":\"{{comment.value}}\", \"choice\":\"Approve\", \"returnurl\":\"RETURNURL\"}",
+          "target": "https://mysite.azurewebsites.net/api/Approve"
+        }
+      ]
+    },
+    {
+      "@@type": "ActionCard",
+      "name": "Director Review",
+      "inputs": [                     
+        {
+          "@@type": "TextInput",
+          "id": "comment",
+          "isMultiline": true,
+          "title": "Comment"
+        }
+      ],
+      "actions": [
+        {
+          "@@type": "HttpPOST",
+          "name": "Submit",
+          "body": "{\"comment\":\"{{comment.value}}\", \"choice\":\"Review\", \"returnurl\":\"RETURNURL\"}",
+          "target": "https://mysite.azurewebsites.net/api/Approve"
+        }
+      ]
+    },
+    {
+      "@@type": "ActionCard",
+      "name": "Reject",
+      "inputs": [                     
+        {
+          "@@type": "TextInput",
+          "id": "comment",
+          "isMultiline": true,
+          "title": "Comment"
+        }
+      ],
+      "actions": [
+        {
+          "@@type": "HttpPOST",
+          "name": "Submit",
+          "body": "{\"comment\":\"{{comment.value}}\", \"choice\":\"Reject\", \"returnurl\":\"RETURNURL\"}",
+          "target": "https://mysite.azurewebsites.net/api/Approve"
+        }
+      ]
+    }
+  ]
+}
